@@ -53,7 +53,7 @@ public class Main {
         while ((studentIterator.hasNext())){
             System.out.println(studentIterator.hasNext());
             if(studentIterator.hasNext() == true)
-                studentIterator.remove();
+                studentIterator.remove(); // Выдаёт ошибку
         }
 
 
